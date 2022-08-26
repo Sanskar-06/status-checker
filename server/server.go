@@ -9,9 +9,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/raj-ptl/go-status-check/constants"
-	"github.com/raj-ptl/go-status-check/models"
-	"github.com/raj-ptl/go-status-check/status"
+	"github.com/Sanskar-06/status-checker/constants"
+	"github.com/Sanskar-06/status-checker/models"
+	"github.com/Sanskar-06/status-checker/status"
 )
 
 var WebsiteMap = status.ExposeMap()

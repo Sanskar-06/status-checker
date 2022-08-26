@@ -3,28 +3,13 @@ package status
 import (
 	"context"
 	"fmt"
+	"github.com/Sanskar-06/status-checker/models"
 	"log"
 	"net/http"
 	"os"
-	"status-checker/models"
 	"strings"
 	"sync"
 	"time"
-)
-
-package status
-
-import (
-"context"
-"fmt"
-"log"
-"net/http"
-"os"
-"strings"
-"sync"
-"time"
-
-"github.com/raj-ptl/go-status-check/models"
 )
 
 type StatusChecker interface {
